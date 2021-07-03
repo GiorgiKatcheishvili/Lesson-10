@@ -1,0 +1,261 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.contactheader {
+    position: flex;
+    max-width: 1366px;
+    width: 100%;
+    padding-left: 6%;
+    padding-top: 60px;
+}
+.contactheader span{
+    font: bold 14px 'poppins';
+    color: #5863F8;
+}
+.contactheader p{
+    font: bolder 42px 'poppins';
+    max-width: 378px;
+    width: 100%;
+}
+.contactheader h3{
+    font: bolder 42px 'poppins';
+    max-width: 566px;
+    width: 100%;
+    margin-bottom: 3%;
+}
+/* >>>>>>>>>> information wall <<<<<<<< */
+.wholediv{
+    margin-top: 4%;
+}
+.wholewall{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+}
+.leftdiv{
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    resize: none;
+    margin-left: 7%;
+}
+.inbox{
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+    background-color: #F8F8F8;
+    border: solid gray;
+}
+.leftwall{
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    resize: none;
+    font: normal 13px 'poppins';
+    background-color: #F8F8F8;
+    border: solid gray;
+}
+.rightwall{
+    max-width: 352px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 1%;
+}
+.inboxbutton{
+    background-color: #5863F8;
+    color: #FFFFFF;
+    font: normal 14px 'poppins';
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+    border: none;
+}
+.contact{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 948px;
+    width: 100%;
+    height: 230px;
+    margin: 5% auto;
+}
+.contact-box1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 225px;
+    width: 100%;
+    max-height: 185px;
+    height: 100%;
+}
+.contactball{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 60px;
+    width: 100%;
+    max-height: 60px;
+    height: 100%;
+    background-color: #5863F8;
+    border-radius: 50px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.contactball a{
+    font-size: 25px;
+    color: white;
+}
+.contactback{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.contact h2{
+    font: bold 18px 'poppins';
+}
+.contact p{
+    font: medium 14px 'poppins';
+    color: #B1B1B1;
+}
+.photosection{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.photosection1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.photosection1 img{
+    width: 100%;
+    height: auto;
+}
+
+/* >>>>>>>>>>>FOOTER>>>>>>>>>>> */
+.foot{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1370px;
+    width: 100%;
+    background-color: #121212;
+    margin-top: 0.3%;
+}
+.footblock1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 370px;
+    width: 100%;
+    height: 191px;
+    padding: 5px 0 0 139px;
+    margin-right: 10%;
+}
+.footblock1 h2{
+    font: bold 24px 'poppins';
+    color: white;
+    margin-bottom: 10%;
+}
+.footblock1 p{
+    font: medium 14px 'poppins';
+    color: #B1B1B1;
+}
+.footblock1 img{
+    margin-right: 5%;
+    margin-top: 7%;
+}
+.rightfooter{
+    max-width: 650px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5px 0 0 139px;
+}
+.rightfooter div{
+    max-width: 110px;
+    width: 100%;
+}
+.rightfooter div:nth-child(3){
+    max-width: 120px;
+    width: 100%;
+}
+.rightfooter h3{
+    font: bold 18px 'poppins';
+    color: white;
+}
+.rightfooter ul li {
+    margin-top: 10%;
+    font:bold 12px 'poppins';
+    color:#5863F8;
+}
+
+
+
+
+
+
+
+.contactball:hover{
+    opacity: 0.7;
+}
+.leftwall:focus{
+    border: none;
+    outline: solid #5863F8;
+}
+.inbox:focus{
+    border: none;
+    outline: solid #5863F8;
+}
+.inboxbutton:hover{
+    opacity: 0.7;
+}

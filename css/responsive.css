@@ -1,0 +1,98 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (max-width: 692px){
+    .contact div:nth-child(3){
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 467px){
+    .contact div:nth-child(1){
+        margin: 0 auto;
+    }
+    .contact div:nth-child(2){
+        margin: 0 auto;
+    }
+}
+
+/* >>>>>>>>>>>>FOOTER RESPONSIVE<<<<<<<<<< */
+
+
+@media (max-width: 1100px){
+    .photosection1{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;  
+    }
+    .photosection1 div:nth-child(3){
+        margin: 0 auto;
+    }
+}
+@media (max-width: 721px){
+    .photosection1 div{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 692px){
+    .wholsection2{
+        padding-top: 10%;
+    }
+}
+@media (max-width: 467px){
+    .wholsection2{
+        padding-top: 80%;
+    }
+}
+@media (max-width: 400px){
+    .wholsection2{
+        padding-top: 90%;
+    }
+}
+@media (max-width: 310px){
+    .wholsection2{
+        padding-top: 100%;
+    }
+}
+@media (max-width: 270px){
+    .wholsection2{
+        padding-top: 115%;
+    }
+}
+@media (max-width: 880px){
+    .foot{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .footblock1{
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    .rightfooter{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 620px){
+    .rightfooter{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .rightfooter div:nth-child(3){
+        margin: 0 auto;
+    }
+}
+@media (max-width: 378px){
+    .rightfooter div{
+        margin: 0 auto;
+    }
+    .footblock1{
+        margin: 0 auto;
+        margin-bottom: 40%;
+        float: left;
+    }
+}
