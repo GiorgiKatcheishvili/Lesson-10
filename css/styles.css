@@ -169,68 +169,102 @@
 }
 
 /* >>>>>>>>>>>FOOTER>>>>>>>>>>> */
-.foot{
-    display: -webkit-box;
-    display: -ms-flexbox;
+.footdiv{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 1370px;
     width: 100%;
-    background-color: #121212;
-    margin-top: 0.3%;
+    background-color: black;
+    padding: 5%;
 }
-.footblock1{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    max-width: 370px;
+.leftblock{
+    max-width: 260px;
     width: 100%;
-    height: 191px;
-    padding: 5px 0 0 139px;
-    margin-right: 10%;
 }
-.footblock1 h2{
-    font: bold 24px 'poppins';
+.leftblock h2{
+    font: bold 24px 'Poppins';
     color: white;
-    margin-bottom: 10%;
+    margin-bottom: 20px;
 }
-.footblock1 p{
-    font: medium 14px 'poppins';
-    color: #B1B1B1;
-}
-.footblock1 img{
-    margin-right: 5%;
-    margin-top: 7%;
-}
-.rightfooter{
-    max-width: 650px;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 5px 0 0 139px;
-}
-.rightfooter div{
-    max-width: 110px;
-    width: 100%;
-}
-.rightfooter div:nth-child(3){
-    max-width: 120px;
-    width: 100%;
-}
-.rightfooter h3{
-    font: bold 18px 'poppins';
+.leftblock p {
+    font: medium 14px "poppins";
     color: white;
+    margin-bottom: 20px;
 }
-.rightfooter ul li {
-    margin-top: 10%;
-    font:bold 12px 'poppins';
-    color:#5863F8;
+.leftblock img{
+    margin-right: 8px;
 }
+.rightblock{
+    display: flex;
+    justify-content: space-between;
+    max-width: 570px;
+    width: 100%;
+}
+.rihgtcontainer1{
+    max-width: 103px;
+    width: 100%;
+}
+.rihgtcontainer1 h2{
+    font: bold 15px "poppins";
+    color: white;
+    margin-bottom: 20px;
+}
+.rihgtcontainer1 ul li{
+    color: #5863F8;
+    font: medium 14px "poppins";
+    margin-top: 10px;
+}
+.rihgtcontainer2{
+    max-width: 78px;
+    width: 100%;
+}
+.rihgtcontainer2 h2{
+    font: bold 15px "poppins";
+    color: white;
+    margin-bottom: 20px;
+}
+.rihgtcontainer2 ul li{
+    color: #5863F8;
+    font: medium 14px "poppins";
+    margin-top: 10px;
+}
+.rihgtcontainer3{
+    max-width: 198px;
+    width: 100%;
+    display: flex;
+}
+.rihgtcontainer3 h2{
+    font: bold 15px "poppins";
+    color: white;
+    margin-bottom: 20px;
+}
+.rihgtcontainer3 ul li{
+    color: white;
+    font: medium 14px "poppins";
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.rihgtcontainer3 ul li i{
+    color: #5863F8;
+    margin-right: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
